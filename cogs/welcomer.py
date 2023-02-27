@@ -48,7 +48,6 @@ class Welcomer(vbu.Cog):
 
 
     @commands.command()
-    @commands.is_owner()
     async def force_welcome(self, ctx: vbu.Context, member: discord.Member = None):
         """
         Forcefully sends the welcome message to a member
